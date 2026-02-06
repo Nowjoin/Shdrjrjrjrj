@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Page Information Center</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#eef2f7;
+  color:#333;
+}
+.container{
+  max-width:440px;
+  margin:20px auto;
+  padding:14px;
+}
+.card{
+  background:#fff;
+  border-radius:16px;
+  padding:20px;
+  box-shadow:0 6px 20px rgba(0,0,0,0.1);
+  margin-bottom:18px;
+}
+.center{text-align:center}
+.icon{
+  width:64px;
+  height:64px;
+  margin:0 auto 10px;
+}
+.badge{
+  display:inline-block;
+  background:#fbbc04;
+  color:#111;
+  padding:6px 14px;
+  border-radius:20px;
+  font-size:13px;
+  font-weight:bold;
+}
+h2{
+  font-size:18px;
+  margin:10px 0;
+}
+p{
+  font-size:14px;
+  line-height:1.6;
+  color:#555;
+}
+.info-box{
+  background:#f5f8ff;
+  border-left:4px solid #1a73e8;
+  padding:12px;
+  border-radius:8px;
+  margin-top:14px;
+}
+.info-box ul{
+  margin:0;
+  padding-left:18px;
+}
+.info-box li{
+  font-size:13px;
+  margin-bottom:6px;
+}
+.button{
+  display:block;
+  width:100%;
+  text-align:center;
+  background:#1a73e8;
+  color:#fff;
+  padding:14px;
+  text-decoration:none;
+  border-radius:12px;
+  font-weight:bold;
+  margin-top:16px;
+}
+.footer{
+  text-align:center;
+  font-size:12px;
+  color:#777;
+  margin-top:10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- TOP WARNING / INFO -->
+  <div class="card center">
+    <svg class="icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="32" cy="32" r="30" fill="#fbbc04"/>
+      <rect x="29" y="16" width="6" height="22" rx="3" fill="#111"/>
+      <circle cx="32" cy="44" r="3" fill="#111"/>
+    </svg>
+
+    <span class="badge">Important Notice</span>
+    <h2>Page & Account Information</h2>
+    <p>
+      This page shares general guidance related to page status,
+      visibility notices, and commonly observed system messages.
+    </p>
+  </div>
+
+  <!-- DETAILS -->
+  <div class="card">
+    <h2>What You Should Know</h2>
+    <p>
+      The content here is designed to help users understand
+      general review processes and recommended best practices.
+    </p>
+
+    <div class="info-box">
+      <ul>
+        <li>General page visibility information</li>
+        <li>Understanding notice or alert messages</li>
+        <li>Common compliance guidelines</li>
+        <li>Finding official help resources safely</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- SAFETY -->
+  <div class="card center">
+    <svg class="icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="32" cy="32" r="30" fill="#1a73e8"/>
+      <rect x="29" y="14" width="6" height="26" rx="3" fill="#fff"/>
+      <circle cx="32" cy="46" r="3" fill="#fff"/>
+    </svg>
+
+    <h2>Security & Privacy</h2>
+    <p>
+      This page does not request passwords, login details,
+      cookies, IDs, or personal information of any kind.
+    </p>
+  </div>
+
+  <!-- NEXT -->
+  <div class="card">
+    <h2>Continue</h2>
+    <p>
+      You may proceed to the next page to read additional
+      general guidance and commonly asked questions.
+    </p>
+
+    <a href="next.html" class="button">Continue</a>
+
+    <div class="footer">
+      Independent information page • No affiliation with any platform
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
